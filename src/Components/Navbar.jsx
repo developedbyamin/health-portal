@@ -82,32 +82,27 @@ function Navbar() {
         <ul className="mobile-navbar-links">
           <li>
             <Link onClick={openNav} to="/">
-              Home
+              Əsas
             </Link>
           </li>
           <li>
             <a onClick={openNav} href="#services">
-              Services
+              Xidmətlər
             </a>
           </li>
           <li>
             <a onClick={openNav} href="#about">
-              About
+              Haqqımızda
             </a>
           </li>
           <li>
             <a onClick={openNav} href="#reviews">
-              Reviews
+              Rəylər
             </a>
           </li>
           <li>
             <a onClick={openNav} href="#doctors">
-              Doctors
-            </a>
-          </li>
-          <li>
-            <a onClick={openNav} href="#contact">
-              Contact
+              Həkimlər
             </a>
           </li>
         </ul>
