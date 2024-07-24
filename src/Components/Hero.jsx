@@ -16,7 +16,7 @@ function Hero() {
   const handleBookAppointmentClick = () => {
     if (!isButtonDisabled) {
       toast.info("Development mərhələsindəyik", {
-        position: toast.POSITION.TOP_CENTER,
+        position: "top-center",
         onOpen: () => setIsButtonDisabled(true),
         onClose: () => setIsButtonDisabled(false),
       });
