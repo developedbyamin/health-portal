@@ -11,14 +11,14 @@ import { toast } from "react-toastify";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
-  const [isButtonDisabled, setIsButtonDisabled] = useState(false);
+  const [isButtonDisableda, setIsButtonDisabled] = useState(false);
 
   const openNav = () => {
     setNav(!nav);
   };
 
   const handleChatBtnClick = () => {
-    if (!isButtonDisabled) {
+    if (!isButtonDisableda) {
       toast.info("Development mərhələsindəyik", {
         position: toast.POSITION.TOP_CENTER,
         onOpen: () => setIsButtonDisabled(true),
