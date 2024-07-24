@@ -5,7 +5,7 @@ import {
   faBars,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
-import "../Styles/Navbar.css";
+import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 

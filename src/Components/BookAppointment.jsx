@@ -7,7 +7,7 @@ import {
   faCircleCheck,
   faCalendarCheck,
 } from "@fortawesome/free-solid-svg-icons";
-import "../Styles/BookAppointment.css";
+import "../styles/BookAppointment.css";
 
 function BookAppointment() {
   const [isButtonDisabled, setIsButtonDisabled] = useState(false);

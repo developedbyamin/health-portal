@@ -7,11 +7,9 @@ import NotFound from "./Pages/NotFound";
 import Appointment from "./Pages/Appointment";
 
 function App() {
-  const basename = process.env.NODE_ENV === "production" ? "/Health-Plus" : "/";
-
   return (
     <div className="App">
-      <Router basename={basename}>
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/legal" element={<Legal />} />

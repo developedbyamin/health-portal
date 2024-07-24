@@ -3,7 +3,7 @@ import Doctor from "../Assets/doctor-picture.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarCheck, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { toast } from "react-toastify";
-import "../Styles/Hero.css";
+import "../styles/Hero.css";
 
 function Hero() {
   const [goUp, setGoUp] = useState(false);
